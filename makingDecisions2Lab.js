@@ -117,7 +117,7 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 for(i = 0; i < listOfNumbers.length; i++) {
   if(listOfNumbers[i] % 3 === 0) {
-    console.log(`${listOfNumbers[i]} is divisible by 3`)
+    console.log(`${listOfNumbers[i]} is divisible by 3`);
   }
 }
 
@@ -131,7 +131,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the 'letters' array. Console log every item in the array.
 */
 
-//Code Here
+for(let i = letters.length -1; i >= 0; i--) {
+  console.log(letters[i]);
+}
 
 
 ////////// Advanced Problems //////////
